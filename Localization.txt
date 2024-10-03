@@ -1,71 +1,416 @@
 Key,Source,Context,Changes,English,Russian
 
-buffBuffDevourerAOE,buffs,Buff,,Devourer,Пожиратель
+xuiAccessories,UI,XUI,,Acessórios
+statWeaponHandling,ui_display,Item stat,,Manipulação de Armas
+statControlResist,ui_display,Item stat,,"Resistência (Atordoamento, Choque)"
+statCritResist,ui_display,Item stat,,Resistência a Golpes Críticos
+statFoodWaterUseAOE,ui_display,Item stat,,Perda de comida/água (Próprio e grupo)
+statCarryCapacityAOE,ui_display,Item stat,,Capacidade de Carga (Próprio e grupo)
+statRegHealthIncreaseSpeedAOE,ui_display,Item stat,,Velocidade de Regeneração de Saúde (Próprio e grupo)
+statLootQuantityFood,ui_display,Item stat,,Comida e medicina no saque (Próprio e grupo)
+statRunSpeedAOE,ui_display,Item stat,,Velocidade de Corrida (Próprio e grupo)
+statEliteDamage,ui_display,Item stat,,"Bônus de Dano (Elite, Minions)"
+statBossDamage,ui_display,Item stat,,Bônus de Dano (Chefes)
+statDegradationPerUseDU,ui_display,Item stat,,Degradação por Uso
 
-BuffDevourerAOEName,buffs,buff,,Devourer nearby, Пожиратель рядом
-BuffDevourerAOETooltip,buffs,buff,,The Devourer is on the hunt,Пожиратель вышел на охоту
-BuffDevourerAOEIncDesc,buffs,Buff,,"You have sometimes heard about this creature in stories from experienced wanderers. And here is this creature next to you. If you are not ready to meet it, you better run away. The Devourer never walks alone, if it senses danger, it can call minions.\nIt is difficult for you to overcome fear. Your eyes are dark and everything is swimming. But you can still RUN!!!\nYour mobility is reduced by [FFB800]10%[-]","Вы иногда слышали об этой твари в расказах от бывалых странников. И вот это тварь рядом с вами. Если вы не готовы к встречи с ней лучше убегайте. Пожиратель никогда не ходит один, если он почувствует опасность он может позвать приспешников.\nВам сложно преодолеть страх. В глазах потемнего и все поплыло. Но вы все еще можете БЕЖАТЬ!!!\nВаша мобильность снижена на [FFB800]10%[-]"
 
-BuffBearDaddyAOE,buffs,Buff,,Bear Daddy,Папа Медведь
+ammo762mmBulletDU,items,Ammo,,7.62mm [5AFF75]Munição de Urânio Empobrecido[-]
+ammo762mmBulletDUDesc,items,Ammo,,"Munições experimentais de urânio empobrecido 7.62.\nSignificativamente mais fortes do que as munições comuns e melhoradas deste calibre. Ignora armaduras e penetra até 3 alvos. A munição é projetada especificamente para combater grandes mutantes. Ao atingir chefes ou inimigos elites, o dano é significativamente aumentado.\n\nNão pode ser fabricada de forma independente. Esse tipo de munição pode ser solicitado no suporte ou encontrado no loot de chefes."
+ammo44MagnumBulletDU,items,Ammo,,.44 [5AFF75]Munição de Urânio Empobrecido[-]
+ammo44MagnumBulletDUDesc,items,Ammo,,"Munições experimentais de urânio empobrecido .44.\nSignificativamente mais fortes do que as munições comuns e melhoradas deste calibre. Ignora armaduras e penetra até 3 alvos. A munição é projetada especificamente para combater grandes mutantes. Ao atingir chefes ou inimigos elites, o dano é significativamente aumentado.\n\nNão pode ser fabricada de forma independente. Esse tipo de munição pode ser solicitado no suporte ou encontrado no loot de chefes."
+ammo9mmBulletDU,items,Ammo,,9mm [5AFF75]Munição de Urânio Empobrecido[-]
+ammo9mmBulletDUDesc,items,Ammo,,"Munições experimentais de urânio empobrecido 9mm.\nSignificativamente mais fortes do que as munições comuns e melhoradas deste calibre. Ignora armaduras e penetra até 3 alvos. A munição é projetada especificamente para combater grandes mutantes. Ao atingir chefes ou inimigos elites, o dano é significativamente aumentado.\n\nNão pode ser fabricada de forma independente. Esse tipo de munição pode ser solicitado no suporte ou encontrado no loot de chefes."
+ammoShotgunSlugDU,items,Ammo,,Cartuchos de espingarda [5AFF75]Munição de Urânio Empobrecido[-]
+ammoShotgunSlugDUDesc,items,Ammo,,"Cartuchos de espingarda experimentais com munição de urânio empobrecido.\nSignificativamente mais fortes do que as munições comuns e melhoradas deste calibre. Ignora armaduras e penetra até 3 alvos. A munição é projetada especificamente para combater grandes mutantes. Ao atingir chefes ou inimigos elites, o dano é significativamente aumentado.\n\nNão pode ser fabricada de forma independente. Esse tipo de munição pode ser solicitado no suporte ou encontrado no loot de chefes."
+resourceMutationSamples,items,RareResources,,Amostras de Mutação de Zumbis
+resourceMutationSamplesDesc,items,RareResources,,"Uma substância extremamente repugnante e com um cheiro ainda pior. No entanto, é um recurso extremamente procurado no mundo exterior. Cientistas ainda estão tentando entender como ocorrem as mutações complexas e com o que exatamente isso está relacionado; agora eles poderão acelerar significativamente suas pesquisas.\n\n[DECEA3]Em troca, os cientistas estão prontos para fornecer a você a tecnologia mais recente que possuem. Use a estação de rádio para trocar por conjuntos de munição experimental[-]"
 
-BuffBearDaddyAOEName,buffs,buff,,Bear Daddy nearby, Папа Медведь рядом
-BuffBearDaddyAOETooltip,buffs,buff,,Bear Daddy is on the hunt,Папа Медведь вышел на охоту
-BuffBearDaddyAOEIncDesc,buffs,Buff,,"You have sometimes heard about this creature in stories from experienced wanderers. And here is this creature next to you. If you are not ready to meet it, you better run away. The Bear Daddy never walks alone, if it senses danger, it can call minions.\nIt is difficult for you to overcome fear. Your eyes are dark and everything is swimming. But you can still RUN!!!\nYour mobility is reduced by [FFB800]10%[-]","Вы иногда слышали об этой твари в расказах странников. И вот это тварь рядом с вами. Если вы не готовы к встречи с ней лучше убегайте. Папа медведь никогда не ходит один, если он почувствует опасность он может позвать приспешников.\nВам сложно преодолеть страх. В глазах потемнего и все поплыло. Но вы все еще можете БЕЖАТЬ!!!\nВаша мобильность снижена на [FFB800]10%[-]"
+resourceMechanicalPartsImp,items,item,,Peças Mecânicas [DECEA3]Melhoradas[-]
+resourceMechanicalPartsImpDesc,items,item,,"Peças mecânicas melhoradas permitem criar itens mais complexos.\nSomente um Engenheiro Avançado pode criar esses itens."
 
-BuffGargulAOE,buffs,Buff,,Gargul,Гаргул
+resourceElectricPartsImp,items,item,,Peças Elétricas [DECEA3]Melhoradas[-]
+resourceElectricPartsImpDesc,items,item,,"Peças elétricas melhoradas permitem criar itens mais complexos.\nSomente um Engenheiro Avançado pode criar esses itens."
 
-BuffGargulAOEName,buffs,buff,,Gargul nearby, Гаргул рядом
-BuffGargulAOETooltip,buffs,buff,,Gargul is on the hunt,Гаргул вышел на охоту
-BuffGargulAOEIncDesc,buffs,Buff,,"You have sometimes heard about this creature in stories from experienced wanderers. And here is this creature next to you. If you are not ready to meet it, you better run away. Gargul never flies alone, if he senses danger he can call his minions.\nIt is difficult for you to overcome fear. Your eyes are dark and everything is swimming. But you can still RUN!!!\nYour mobility is reduced by [FFB800]10%[-]","Вы иногда слышали об этой твари в расказах странников. И вот это тварь рядом с вами. Если вы не готовы к встречи с ней лучше убегайте. Гаргул никогда не летает один, если он почувствует опасность он может позвать приспешников.\nВам сложно преодолеть страх. В глазах потемнего и все поплыло. Но вы все еще можете БЕЖАТЬ!!!\nВаша мобильность снижена на [FFB800]10%[-]"
+DewCollectorBundleWater,items,item,,Garrafa de água
+resourceReactorBatteryDesc,items,item,,"Água purificada do coletor  CWB é coletada em uma grande garrafa. Com elas, você não terá problemas com água."
 
-BuffBullAOE,buffs,Buff,,Bull,Бугай
-BuffBullAOEName,buffs,buff,,Bull nearby, Бугай рядом
-BuffBullAOETooltip,buffs,buff,,Bull is on the hunt,Бугай вышел на охоту
-BuffBullAOEIncDesc,buffs,Buff,,"What do you get when you cross a strongman and a bull? Nothing good!!!\nThis creature knows no fatigue, and its blows are capable of turning any fortification into crumbs. An extremely dangerous opponent. If you get hit by its blow, you will most likely die. Think three times before engaging it in battle.\n\nYour fear is difficult to overcome. Your eyes are dark and everything is swimming. But you can still RUN!!!\nYour mobility is reduced by [FFB800]10%[-]","Что получиться если скрестить силача и быка. Ничего хорого!!!\nЭта тварь не знает усталостии, а его удары способны превратить в крошку любое укрепрение. Крайне опасный противник. Если вы попадете под его удар, вы скорее всего умрете. Подумайте трижды прежде чем ввязываться с ним в бой.\n\nВам сложно преодолеть страх. В глазах потемнего и все поплыло. Но вы все еще можете БЕЖАТЬ!!!\nВаша мобильность снижена на [FFB800]10%[-]"
+resourceReactorBattery,items,item,,Bateria de Reator
+resourceReactorBatteryDesc,items,item,,"Uma pequena bateria caseira com alguma carga restante de um pack de baterias. Usada para carregar ferramentas [FFB800]de Reator[-]"
 
-BuffShockerAOE,buffs,Buff,,Shocker,Шокер
-BuffShockerAOEName,buffs,buff,,Shocker nearby, Шокер рядом
-BuffShockerAOETooltip,buffs,buff,,Shocker is on the hunt,Шокер вышел на охоту
-BuffShockerAOEIncDesc,buffs,Buff,,"What happens if you connect an irradiated zombie to the network. Apparently someone seriously asked this question!!!\nThis creature burns everything on its own near itself. Try not to get close to it, if possible.\n\nIt is difficult for you to overcome your fear. Your eyes are dark and everything is swimming. But you can still RUN!!!\nYour mobility is reduced by [FFB800]10%[-]","Что получиться если подключить к сети облученного зомби. Видимо ктото всерьез задался этим вопросом!!!\nЭта тварь сжигает все на своем рядом с собой. Старайтель не сближаться с ней, если получиться.\n\nВам сложно преодолеть страх. В глазах потемнего и все поплыло. Но вы все еще можете БЕЖАТЬ!!!\nВаша мобильность снижена на [FFB800]10%[-]"
+PortableReactor,items,item,,Reator [FFB800]Portátil[-]
+PortableReactorDesc,items,item,,"Tecnologia experimental em energia. A fonte de energia mais poderosa e duradoura. [DECEA3]Homem de Ferro[-] está descansando.\n\nUsada para criar ferramentas de reator e operar fontes de energia poderosas."
+forgeImp,blocks,Workstation,,Forja [FFD700] CWB [-][DECEA3]Melhorada[-]
+forgeImpDesc,blocks,Workstation,,"Esta grande forja melhorada é uma grande economizadora de tempo. Ferramentas aprimoradas permitem fundir grandes quantidades de recursos muito mais rapidamente."
 
-BuffVeteranAOE,buffs,Buff,,Veteran,Ветеран
-BuffVeteranAOEName,buffs,buff,,Veteran nearby, Ветеран рядом
-BuffVeteranAOETooltip,buffs,buff,,Veteran is on the hunt,Ветеран вышел на охоту
-BuffVeteranAOEIncDesc,buffs,Buff,,"This creature was once one of the elite units. But a little beer and a bit of zombies do the trick. Don't underestimate the stamina and thirst for shooting of someone who only knew how to kill - even in this form. They say the brotherhood of arms is on another physical level. And even now they are always ready to help each other.\n\nIt's hard for you to overcome your fear. Your eyes are dark and everything is blurry. But you can still RUN!!!\nYour mobility is reduced by [FFB800]10%[-]","Это создание когда давно был одним из представителей элитных подразделений. Но немного пива и чуток зомби делают свое дело. Не стоит недооценивать выносливость и жажду пострелять того, кто только и умел что убивать - даже в таком виде. Говорят боевое братство на другом физическом уровне. И даже сейчас они всегда готовы помочь друг другу.\n\nВам сложно преодолеть страх. В глазах потемнего и все поплыло. Но вы все еще можете БЕЖАТЬ!!!\nВаша мобильность снижена на [FFB800]10%[-]"
+workbenchImp,blocks,Workstation,,Bancada [FFD700] CWB [-][DECEA3]Melhorada[-]
+workbenchImpDesc,blocks,Workstation,,"Você pode criar quase qualquer coisa em uma bancada comum, mas isso leva tempo. A versão aprimorada da bancada permite adicionar modificações que aceleram a criação de itens e permitem criar itens complexos e únicos."
 
-BuffBossEnragePlayer,buffs,Buff,,Boss in rage,Босс в бешенстве
-BuffBossEnragePlayerName,buffs,buff,,Boss in rage,Босс в бешенстве
-BuffBossEnragePlayerTooltip,buffs,buff,,Boss in rage,Босс в бешенстве
-BuffBossEnragePlayerIncDesc,buffs,Buff,,"You've driven Boss into a rage. Better run away!\nHis movement speed is increased by [DECEA3]50%[-], his attack speed is increased by [DECEA3]60%[-], and any of his attacks will knock you down.\n\nHowever, his damage resistance is decreased by [DECEA3]30%[-]","Вы довели Босса до приступа бешенства. Лучше убегайте!\nСкорость его передвижения увеличена на [DECEA3]50%[-], скорость атаки увеличена на [DECEA3]60%[-], также любая его атака собъет вас с ног.\n\nОднако сопротивление урону уменьшенно на [DECEA3]30%[-]"
+kitchenStove,blocks,Workstation,,Fogão de Cozinha
+kitchenStoveDesc,blocks,Workstation,,"Esqueça de cozinhar sobre uma fogueira. Agora você pode cozinhar comida realmente caseira.\nPermite usar acessórios de cozinha, que aumentam a velocidade de cozimento e reduzem a quantidade de recursos necessários."
 
-BuffBossImmortalPlayer,buffs,Buff,,Boss is invulnerable,Босс неуязвим
-BuffBossImmortalPlayerName,buffs,buff,,Boss is invulnerable,Босс неуязвим
-BuffBossImmortalPlayerTooltip,buffs,buff,,Boss is invulnerable,Босс неуязвим
-BuffBossImmortalPlayerIncDesc,buffs,Buff,,"The Boss has gone into deep defense. He emits strong radiation, be careful!\nIt's better to hit him for now. He is invulnerable to any type of damage.","Босс ушел в глухую оборону. Он излучает сильную радиацию, будьте осторожны!\nПока лучше его бить. Оне неуязвим к любому типу урона."
+DewCollectorImp,blocks,Workstation,,Coletor de Orvalho [DECEA3] CWB[-]
+DewCollectorImpDesc,blocks,Workstation,,"Não haverá mais problemas com água. O coletor de orvalho  CWB permite coletar água 30% mais rápido.\nAo instalar um filtro de água, a água é coletada em garrafas. Isso aumenta significativamente a quantidade de água obtida."
 
-BuffBossHealthTheftPlayer,buffs,Buff,,Boss steals health,Босс крадет здоровье
-BuffBossHealthTheftPlayerName,buffs,buff,,Boss steals health,Босс крадет здоровье
-BuffBossHealthTheftPlayerTooltip,buffs,buff,,Boss steals health,Босс крадет здоровье
-BuffBossHealthTheftPlayerIncDesc,buffs,Buff,,"The boss feeds on your adrenaline. You take damage over time and are slowed down. Try to wait it out and stay alive.","Босс питается вашим адреналином. Вы получаете периодический урон и замедлены\nПостарайтесь переждать и остаться в живых."
+cementMixerImp,blocks,Workstation,,Betoneira [FFD700] CWB [-][DECEA3]Melhorada[-]
+cementMixerImpDesc,blocks,Workstation,,"Agora você pode construir uma cidade inteira.\nA velocidade de processamento de recursos foi aumentada e o custo das receitas foi reduzido."
 
-BuffBossBrotherhoodPlayer,buffs,Buff,,Brotherhood in arms,Боевое братство
-BuffBossBrotherhoodPlayerName,buffs,buff,,Boss's Brotherhood of War,Боевое братство босса
-BuffBossBrotherhoodPlayerTooltip,buffs,buff,,The boss calls for a fighting brotherhood,Босс призывает боевое братство
-BuffBossBrotherhoodPlayerIncDesc,buffs,Buff,,"The boss summons a brotherhood of arms. For the duration of the ability, all enemies within 20 meters of the boss receive a mobility bonus of [DECEA3]25%[-], and all damage taken by them is reduced by [DECEA3]50%[-]. In addition, your resistance to physical damage is reduced by [FFB800]25%[-]\nTry to wait it out and stay alive.","Босс вызывает боевое братство. На время действия способности все противники в радиусе 20 метров от боссы получают бонус к мобильности [DECEA3]25%[-], а также весь урон по ним уменьшен на [DECEA3]50%[-]. Кроме ваше сопротивление к физическому урону снижено на [FFB800]25%[-]\nПостарайтесь переждать и остаться в живых."
+ReactorСhargingStation,blocks,BatteryBank,,[FFB800]Reator[-] Estação de Carregamento
+ReactorСhargingStationDesc,blocks,BatteryBank,,"Estação experimental para carregar um instrumento de reator.\n\nATENÇÃO! Requer conexão à rede elétrica para carregamento."
 
-BuffTerribleWoundsName,buffs,buff,,Terrible wound, Ужасные раны
-BuffTerribleWoundsTooltip,buffs,buff,,You have a terrible wound,У вас ужасная рана
-BuffTerribleWoundsIncDesc,buffs,Buff,,"You have opened up a nasty wound. You take periodic damage from blood loss. \nYour health is reduced by [FFB800]25[-] and your mobility is reduced by [FFB800]20%[-]","У вас открылась ужасная рана. Вы получаете периодический урон от потери крови. \nЗапас здоровья снижен на [FFB800]25[-] а ваша мобильность на [FFB800]20%[-]"
+toolBellowsImp,items,item,,Mecas [DECEA3]Melhoradas[-]
+toolBellowsImpDesc,items,item,,"Mecas de ferreiro para a forja melhorada. Aumenta a velocidade de fundição em 2x."
 
-bossDevourer,entityclasses,Entity,,[FFB800]Mini BOSS[-] DEVOURER,[FFB800]Мини БОСС[-] ПОЖИРАТЕЛЬ
-DevourerMinion,entityclasses,Entity,,[94CBFF]MINION[-] Devourer,[94CBFF]МИНЬЕН[-] Пожирателя
-bossBearDaddy,entityclasses,Entity,,[FFB800]Mini BOSS[-] BEAR DADDY,[FFB800]Мини БОСС[-] ПАПА МЕДВЕДЬ
-BearDaddyMinion,entityclasses,Entity,,[94CBFF]MINION[-] Bear Daddy,[94CBFF]МИНЬЕН[-] Папы медведя
-bossGargul,entityclasses,Entity,,[FFB800]Mini BOSS[-] GARGUL,[FFB800]Мини БОСС[-] ГАРГУЛ
-GargulMinion,entityclasses,Entity,,[94CBFF]MINION[-] Gargul,[94CBFF]МИНЬЕН[-] Гаргула
-bossBull,entityclasses,Entity,,[FFB800]BOSS[-] BULL,[FFB800]БОСС[-] БУГАЙ
-bossShocker,entityclasses,Entity,,[FFB800]BOSS[-] SHOCKER,[FFB800]БОСС[-] ШОКЕР
-bossVeteran,entityclasses,Entity,,[FFB800]BOSS[-] VETERAN,[FFB800]БОСС[-] ВЕТЕРАН
+toolAnvilImp,items,item,,Bigorna [FFD700] CWB [-][DECEA3]Melhorada[-]
+toolAnvilImpDesc,items,item,,"Bigorna para a forja melhorada. Aumenta a velocidade de criação em 2x."
 
-MiniBossLootContainer,entityclasses,Entity,,Loot [DECEA3]Mini BOSS[-],Добыча [DECEA3]Мини БОСС[-]
-BossLootContainer,entityclasses,Entity,,Loot [FFB800]BOSS[-],Добыча [FFB800]БОСС[-]
+toolSmallParts,items,item,,Peças Pequenas [DECEA3]Bancada[-]
+toolSmallPartsDesc,items,item,,"É bom ter parafusos e parafusos à mão. Isso permite economizar muito tempo. Aumenta a velocidade de criação de itens em 30%."
+
+toolImprovedTools,items,item,,Ferramentas Melhoradas [DECEA3]Bancada[-]
+toolImprovedToolsDesc,items,item,,"Uma boa ferramenta é o principal necessário para criar receitas complexas. Agora você pode criar itens raros e únicos."
+
+toolKitchenKnives,items,item,,Facas de Cozinha Ururu [DECEA3]Fogão[-]
+toolKitchenKnivesDesc,items,item,,"Boas facas afiadas são sempre úteis na cozinha. Especialmente se forem afiadas por [FFB800]Ururu[-]. Você não cortará seus dedos e, além disso, isso reduzirá o tempo de cozimento."
+
+resourceConcreteBundle,items,item,,Pacote de Concreto [DECEA3]1000[-]
+resourceConcreteBundleDesc,items,item,,"Pacote compacto de concreto. Requer menos recursos ao criar.\nAbra este pacote para obter 1000 concreto."
+
+0000 -- ARMOR -- 0000
+
+resourceArmorCraftingKitImp,items,Resources,,Kit de Criação de Armadura [DECEA3] CWB[-]
+resourceArmorCraftingKitImpDesc,items,Resources,,"Criando armaduras experimentais, você pode melhorar significativamente suas estatísticas. Mas você também precisa dos acessórios apropriados.\n\nUsado para fazer armaduras experimentais."
+
+buffRescuerSetBonus,buffs,Buff,,[FFD700] CWB [-][FFB800]Salvador[-]
+buffRescuerSetBonusName,buffs,buff,,Bônus de Armadura
+buffRescuerSetBonusTooltip,buffs,buff,,Você se beneficia do bônus de armadura do Salvador
+buffRescuerSetBonusDesc,buffs,Buff,,"Você equipou um conjunto completo da armadura experimental [FFD700] CWB [-][FFB800]Salvador[-] Bloodborne\nOs membros do seu grupo se beneficiam dos seguintes bônus: Consumo de comida e água reduzido em [DECEA3]{cvar(.armorRescuerFoodWaterFSBDisplay:0)}%[-], Capacidade de carga aumentada em [DECEA3]{cvar(.armorRescuerCarryCapacityFSBDisplay:0)}%[-], Regeneração de saúde com cura aumentada em [DECEA3]{cvar(.armorRescuerRegHealthFSBDisplay:0)}%[-], Mais comida e medicina no loot em [DECEA3]{cvar(.armorRescuerFoodLootFSBDisplay:0)}%[-] e velocidade de corrida aumentada em [DECEA3]{cvar(.armorRescuerRunSpeedFSBDisplay:0)}%[-]\n[FFB800]Suporte ao Grupo[-] - Usar [8692FF]Elixires Super[-] e [8692FF]Kit de Primeiros Socorros do Salvador[-] aplicará o efeito a todos os membros do grupo. Ao usar [8692FF]Kit de Primeiros Socorros do Salvador[-], você aplica o efeito [FFB800]Defesa do Salvador[-] a um aliado.\n\n[DECEA3]Concede resistência ao [DECEA3]1[-] efeito de radiação ativa[-]"
+buffRescuerSetBonusOtherT1Name,buffs,buff,,Rescuer is nearby,Espalhador está próximo
+buffRescuerSetBonusOtherT1Tooltip,buffs,buff,,Ally Armor Set Bonus Active,Bônus do Conjunto de Armadura do Aliado Ativo
+buffRescuerSetBonusOtherT1Desc,buffs,Buff,,"O aliado possui um conjunto completo de armadura [FFD700] CWB [-][FFB800]Rescuer[-]\n\nConsumo de comida e água reduzido em [DECEA3]10%[-], Capacidade de carga aumentada em [DECEA3]1[-], Taxa de recuperação de saúde com cura aumentada em [DECEA3]6%[-], Mais comida e medicina no loot em [DECEA3]4%[-] e velocidade de corrida aumentada em [DECEA3]1%[-]"
+
+buffRescuerSetBonusOtherT2Name,buffs,buff,,Espalhador está próximo
+buffRescuerSetBonusOtherT2Tooltip,buffs,buff,,Bônus do Conjunto de Armadura do Aliado Ativo
+buffRescuerSetBonusOtherT2Desc,buffs,Buff,,"O aliado possui um conjunto completo de armadura [FFD700] CWB [-][FFB800]Rescuer[-]\n\nConsumo de comida e água reduzido em [DECEA3]20%[-], Capacidade de carga aumentada em [DECEA3]2[-], Taxa de recuperação de saúde com cura aumentada em [DECEA3]12%[-], Mais comida e medicina no loot em [DECEA3]8%[-] e velocidade de corrida aumentada em [DECEA3]2%[-]"
+
+buffRescuerSetBonusOtherT3Name,buffs,buff,,Espalhador está próximo
+buffRescuerSetBonusOtherT3Tooltip,buffs,buff,,Bônus do Conjunto de Armadura do Aliado Ativo
+buffRescuerSetBonusOtherT3Desc,buffs,Buff,,"O aliado possui um conjunto completo de armadura [FFD700] CWB [-][FFB800]Rescuer[-]\n\nConsumo de comida e água reduzido em [DECEA3]30%[-], Capacidade de carga aumentada em [DECEA3]3[-], Taxa de recuperação de saúde com cura aumentada em [DECEA3]18%[-], Mais comida e medicina no loot em [DECEA3]12%[-] e velocidade de corrida aumentada em [DECEA3]3%[-]"
+
+buffRescuerSetBonusOtherT4Name,buffs,buff,,Espalhador está próximo
+buffRescuerSetBonusOtherT4Tooltip,buffs,buff,,Bônus do Conjunto de Armadura do Aliado Ativo
+buffRescuerSetBonusOtherT4Desc,buffs,Buff,,"O aliado possui um conjunto completo de armadura [FFD700] CWB [-][FFB800]Rescuer[-]\n\nConsumo de comida e água reduzido em [DECEA3]40%[-], Capacidade de carga aumentada em [DECEA3]4[-], Taxa de recuperação de saúde com cura aumentada em [DECEA3]24%[-], Mais comida e medicina no loot em [DECEA3]16%[-] e velocidade de corrida aumentada em [DECEA3]4%[-]"
+
+buffRescuerSetBonusOtherT5Name,buffs,buff,,Espalhador está próximo
+buffRescuerSetBonusOtherT5Tooltip,buffs,buff,,Bônus do Conjunto de Armadura do Aliado Ativo
+buffRescuerSetBonusOtherT5Desc,buffs,Buff,,"O aliado possui um conjunto completo de armadura [FFD700] CWB [-][FFB800]Rescuer[-]\n\nConsumo de comida e água reduzido em [DECEA3]50%[-], Capacidade de carga aumentada em [DECEA3]5[-], Taxa de recuperação de saúde com cura aumentada em [DECEA3]30%[-], Mais comida e medicina no loot em [DECEA3]20%[-] e velocidade de corrida aumentada em [DECEA3]5%[-]"
+
+buffRescuerSetBonusOtherT6Name,buffs,buff,,Espalhador está próximo
+buffRescuerSetBonusOtherT6Tooltip,buffs,buff,,Bônus do Conjunto de Armadura do Aliado Ativo
+buffRescuerSetBonusOtherT6Desc,buffs,Buff,,"O aliado possui um conjunto completo de armadura [FFD700] CWB [-][FFB800]Rescuer[-]\n\nConsumo de comida e água reduzido em [DECEA3]60%[-], Capacidade de carga aumentada em [DECEA3]10[-], Taxa de recuperação de saúde com cura aumentada em [DECEA3]50%[-], Mais comida e medicina no loot em [DECEA3]30%[-] e velocidade de corrida aumentada em [DECEA3]10%[-]"
+
+buffPredatorSetBonus,buffs,Buff,,[FFD700] CWB [-][FFB800]Predador[-]
+buffPredatorSetBonusName,buffs,buff,,Bônus de Armadura
+buffPredatorSetBonusTooltip,buffs,buff,,Você se beneficia do bônus da armadura Predador
+buffPredatorSetBonusDesc,buffs,Buff,,"Você está usando um conjunto completo de armadura experimental [FFD700] CWB [-][FFB800]Predator[-]\nO dano de armas de fogo aumenta em [DECEA3]{cvar(.armorPredatorFSBDisplay:0)}%[-]\n[FFB800]Segunda Chance[-] - Se você tiver menos de [DECEA3]50[-] HP restantes, a habilidade ativa será acionada. Você fica imune a todo dano por [DECEA3]5[-] seg, e todos os inimigos ao seu redor são derrubados. Tempo de recarga de [DECEA3]90[-] segundos\n[FFB800]Todos à caça![-] - O dano causado por todos os membros do seu grupo aumenta em [DECEA3]10%[-]\n\n[DECEA3]Concede resistência a [DECEA3]1[-] efeito ativo de radiação[-]"
+
+buffSecondChanceActiveName,buffs,buff,,Segunda Chance
+buffSecondChanceActiveTooltip,buffs,buff,,Você recebeu uma segunda chance
+buffSecondChanceActiveIncDesc,buffs,Buff,,"Segunda Chance Ativada\n\nVocê é imune a todo dano por [DECEA3]5[-] segundos\nTodos os inimigos ao seu redor serão derrubados","Segunda Chance Ativada\n\nVocê é imune a todo dano por [DECEA3]5[-] segundos\nTodos os inimigos ao seu redor serão derrubados"
+
+buffSecondChanceReloadName,buffs,buff,,Recarga da Segunda Chance
+buffSecondChanceReloadTooltip,buffs,buff,,Habilidade ativa em recarga
+buffSecondChanceReloadDesc,buffs,Buff,,"Habilidade ativa em recarga\n\nAguarde até que termine para poder ativá-la novamente","Habilidade ativa em recarga\n\nAguarde até que termine para poder ativá-la novamente"
+
+buffEveryoneHuntName,buffs,buff,,Todos à caça!
+buffEveryoneHuntTooltip,buffs,buff,,Bônus de Conjunto de Armadura Ativo
+buffEveryoneHuntIncDesc,buffs,Buff,,"Aliado possui um conjunto completo de armadura [FFD700] CWB [-][FFB800]Predador[-]\n\nSeu dano é aumentado em [DECEA3]10%[-]","Aliado possui um conjunto completo de armadura [FFD700] CWB [-][FFB800]Predador[-]\n\nSeu dano é aumentado em [DECEA3]10%[-]"
+
+buffDefenderName,buffs,buff,,Defensor
+buffDefenderTooltip,buffs,buff,,Bônus de Conjunto de Armadura Ativo
+buffDefenderIncDesc,buffs,Buff,,"Aliado possui um conjunto completo de armadura c\n\nResistência ao dano aumentada em [DECEA3]5%[-]","Aliado possui um conjunto completo de armadura [FFD700] CWB [-][FFB800]Maus[-]\n\nResistência ao dano aumentada em [DECEA3]5%[-]"
+
+buffShockTherapyName,buffs,buff,,Terapia de Choque
+buffShockTherapyTooltip,buffs,buff,,Você ativou a armadura Maus
+buffShockTherapyIncDesc,buffs,Buff,,"Terapia de Choque Ativada\n\nTodos os inimigos dentro de [DECEA3]10[-] metros de você estão sob o efeito de choque elétrico\nVocê perde [FFB800]3[-] HP a cada segundo\nCuidado, isso pode te matar!","Terapia de Choque Ativada\n\nTodos os inimigos dentro de [DECEA3]10[-] metros de você estão sob o efeito de choque elétrico\nVocê perde [FFB800]3[-] HP a cada segundo\nCuidado, isso pode te matar!"
+
+buffRescuerAidKitName,buffs,buff,,Proteção do Resgatador
+buffRescuerAidKitTooltip,buffs,buff,,Você está sob a proteção do Resgatador
+buffRescuerAidKitDesc,buffs,Buff,,"Você recebeu um tratamento complexo do resgatador.\nSua resistência ao dano foi aumentada.","Você recebeu um tratamento complexo do resgatador.\nSua resistência ao dano foi aumentada"
+buffMausSetBonus,buffs,Buff,,[FFD700] CWB [-][FFB800]Maus[-],[FFD700] CWB [-][FFB800]Maus[-]
+buffMausSetBonusName,buffs,buff,,Bônus de Armadura
+buffMausSetBonusTooltip,buffs,buff,,Você se beneficia do bônus da armadura Maus
+buffMausSetBonusDesc,buffs,Buff,,"Você está usando um conjunto completo de armadura experimental [FFD700] CWB [-][FFB800]Maus[-]\nO dano corpo a corpo aumenta em [DECEA3]{cvar(.armorMausFSBDisplay:0)}%[-]\n[FFB800]Terapia de Choque[-] - Quando ativado, todos os inimigos dentro de 10 metros receberão o efeito de choque elétrico, mas você perderá [DECEA3]3[-] HP a cada segundo. Cuidado, você pode acabar se eletrocutando.\n[FFB800]Defensor[-] - A proteção contra dano físico para todos os membros do seu grupo é aumentada em [DECEA3]5%[-]\n\n[DECEA3]Concede resistência a [DECEA3]1[-] efeito ativo de radiação[-]"
+
+medicalRescuerFirstAidKit,items,Clothes,,[FFB800]Apontamento do Resgatador[-] Kit de Primeiros Socorros
+medicalRescuerFirstAidKitDesc,items,Clothes,,"Kit de Tratamento Completo do Resgatador\nAdiciona todos os efeitos de tratamento (kit de primeiros socorros, bandagem, gesso, vitaminas, antibióticos) em um único uso. Habilidade passiva [DECEA3]Suporte ao Grupo[-] - Se houver um bônus do Kit Completo do Resgatador, todos os efeitos serão aplicados aos jogadores em um raio de [DECEA3]20[-] metros. Além disso, a ativação remove a maioria dos efeitos negativos de controle dos jogadores, e o efeito [DECEA3]Proteção do Resgatador[-] é aplicado por [DECEA3]5[-] seg - Aumenta a resistência ao dano em [DECEA3]50%[-] ao ser ativado, depois cada segundo [DECEA3]-10%[-] durante a duração do efeito."
+
+armorRescuerHelmet,items,Clothes,,[FFD700] CWB [-][FFB800]Resgatador[-] Capacete
+armorRescuerHelmetDesc,items,Clothes,,"Armadura Experimental Leve para a Cabeça\nNenhuma equipe pode ficar sem você. Você ganha mais experiência e melhor loot. Consumo reduzido de água e comida\n\nBônus do Conjunto: Alguns bônus dos elementos da armadura se aplicam a todos os membros do grupo. Habilidade passiva [DECEA3]Suporte ao Grupo[-] - Ao usar Elixires Super e o Kit de Primeiros Socorros do Resgatador, todos os bônus são aplicados a cada membro do grupo. A ativação também remove a maioria dos efeitos negativos de controle e o efeito [DECEA3]Proteção do Resgatador[-] é aplicado. Concede resistência a [DECEA3]1[-] efeito ativo de radiação"
+
+armorRescuerOutfit,items,Clothes,,[FFD700] CWB [-][FFB800]Resgatador[-] Corpo
+armorRescuerOutfitDesc,items,Clothes,,"Armadura Experimental Leve para o Corpo\nNenhuma equipe pode ficar sem você. Aumenta a saúde, a capacidade de carga e a velocidade de cura.\n\nBônus do Conjunto: Alguns bônus dos elementos da armadura se aplicam a todos os membros do grupo. Habilidade passiva [DECEA3]Suporte ao Grupo[-] - Ao usar Elixires Super e o Kit de Primeiros Socorros do Resgatador, todos os bônus são aplicados a cada membro do grupo. A ativação também remove a maioria dos efeitos negativos de controle e o efeito [DECEA3]Proteção do Resgatador[-] é aplicado. Concede resistência a [DECEA3]1[-] efeito ativo de radiação"
+
+armorRescuerGloves,items,Clothes,,[FFD700] CWB [-][FFB800]Resgatador[-] Mãos
+armorRescuerGlovesDesc,items,Clothes,,"Armadura Experimental Leve para as Mãos\nNenhuma equipe pode ficar sem você. Aumenta a velocidade de mineração e a quantidade de recursos ao salvamento. Você também encontra mais medicina e comida.\n\nBônus do Conjunto: Alguns bônus dos elementos da armadura se aplicam a todos os membros do grupo. Habilidade passiva [DECEA3]Suporte ao Grupo[-] - Ao usar Elixires Super e o Kit de Primeiros Socorros do Resgatador, todos os bônus são aplicados a cada membro do grupo. A ativação também remove a maioria dos efeitos negativos de controle e o efeito [DECEA3]Proteção do Resgatador[-] é aplicado. Concede resistência a [DECEA3]1[-] efeito ativo de radiação"
+
+armorRescuerBoots,items,Clothes,,[FFD700] CWB [-][FFB800]Resgatador[-] Pernas
+armorRescuerBootsDesc,items,Clothes,,"Armadura Experimental Leve para as Pernas\nNenhuma equipe pode ficar sem você. Aumenta a resistência, a altura de queda segura e a velocidade de corrida\n\nBônus do Conjunto: Alguns bônus dos elementos da armadura se aplicam a todos os membros do grupo. Habilidade passiva [DECEA3]Suporte ao Grupo[-] - Ao usar Elixires Super e o Kit de Primeiros Socorros do Resgatador, todos os bônus são aplicados a cada membro do grupo. A ativação também remove a maioria dos efeitos negativos de controle e o efeito [DECEA3]Proteção do Resgatador[-] é aplicado. Concede resistência a [DECEA3]1[-] efeito ativo de radiação"
+armorPredatorHelmet,items,Clothes,,[FFD700] CWB [-][FFB800]Predator[-] Capacete
+armorPredatorHelmetDesc,items,Clothes,,"Armadura Experimental Média para a Cabeça\nSeu tempo para caçar chegou. Você ganha mais experiência e loot de melhor qualidade\n\nBônus do Conjunto: Aumenta o dano de armas de fogo. Adiciona a habilidade ativa [DECEA3]Segunda Chance[-] e a habilidade passiva para aliados [DECEA3]Todos à Caça![-]. Concede resistência a [DECEA3]1[-] efeito ativo de radiação"
+
+armorPredatorOutfit,items,Clothes,,[FFD700] CWB [-][FFB800]Predator[-] Corpo
+armorPredatorOutfitDesc,items,Clothes,,"Armadura Experimental Média para o Corpo\n\nSeu tempo para caçar chegou. Aumenta a saúde e a taxa de recuperação de acertos críticos\n\nBônus do Conjunto: Aumenta o dano de armas de fogo. Adiciona a habilidade ativa [DECEA3]Segunda Chance[-] e a habilidade passiva para aliados [DECEA3]Todos à Caça![-]. Concede resistência a [DECEA3]1[-] efeito ativo de radiação"
+
+armorPredatorGloves,items,Clothes,,[FFD700] CWB [-][FFB800]Predator[-] Mãos
+armorPredatorGlovesDesc,items,Clothes,,"Armadura Experimental Média para as Mãos\nSeu tempo para caçar chegou. Aumenta a velocidade de recarga e a habilidade de manejo de armas\n\nBônus do Conjunto: Aumenta o dano de armas de fogo. Adiciona a habilidade ativa [DECEA3]Segunda Chance[-] e a habilidade passiva para aliados [DECEA3]Todos à Caça![-]. Concede resistência a [DECEA3]1[-] efeito ativo de radiação"
+
+armorPredatorBoots,items,Clothes,,[FFD700] CWB [-][FFB800]Predator[-] Pernas
+armorPredatorBootsDesc,items,Clothes,,"Armadura Experimental Média para as Pernas\nSeu tempo para caçar chegou. Aumenta a resistência e a altura de queda segura\n\nBônus do Conjunto: Aumenta o dano de armas de fogo. Adiciona a habilidade ativa [DECEA3]Segunda Chance[-] e a habilidade passiva para aliados [DECEA3]Todos à Caça![-]. Concede resistência a [DECEA3]1[-] efeito ativo de radiação"
+
+armorMausHelmet,items,Clothes,,[FFD700] CWB [-][FFB800]Maus[-] Capacete
+armorMausHelmetDesc,items,Clothes,,"Armadura Experimental Pesada para a Cabeça\nSua armadura é forte demais para carne em movimento. Você ganha mais experiência, e sua resistência a atordoamento e choque é aumentada\n\nBônus do Conjunto: Aumenta o dano de qualquer arma de combate corpo a corpo. Adiciona uma habilidade ativa [DECEA3]Há uma descarga[-] e uma habilidade passiva para aliados [DECEA3]Protetor dos Fracos[-]. Concede resistência a [DECEA3]1[-] efeito ativo de radiação"
+
+armorMausOutfit,items,Clothes,,[FFD700] CWB [-][FFB800]Maus[-] Corpo
+armorMausOutfitDesc,items,Clothes,,"Armadura Experimental Pesada para o Corpo\nSua armadura é forte demais para carne em movimento. Aumenta a saúde e a velocidade de recuperação de acertos críticos\n\nBônus do Conjunto: Aumenta o dano de qualquer arma de combate corpo a corpo. Adiciona uma habilidade ativa [DECEA3]Há uma descarga[-] e uma habilidade passiva para aliados [DECEA3]Protetor dos Fracos[-]. Concede resistência a [DECEA3]1[-] efeito ativo de radiação"
+
+armorMausGloves,items,Clothes,,[FFD700] CWB [-][FFB800]Maus[-] Mãos
+armorMausGlovesDesc,items,Clothes,,"Armadura Experimental Pesada para as Mãos\nSua armadura é forte demais para carne em movimento. Aumenta a velocidade de ataque corpo a corpo e a resistência a acertos críticos\n\nBônus do Conjunto: Aumenta o dano com qualquer arma de combate corpo a corpo. Adiciona uma habilidade ativa [DECEA3]Há uma descarga[-] e uma habilidade passiva para aliados [DECEA3]Protetor dos Fracos[-]. Concede resistência a [DECEA3]1[-] efeito ativo de radiação"
+
+armorMausBoots,items,Clothes,,[FFD700] CWB [-][FFB800]Maus[-] Pernas
+armorMausBootsDesc,items,Clothes,,"Armadura Experimental Pesada para as Pernas\nSua armadura é forte demais para carne em movimento. Aumenta a resistência e a altura de queda segura\n\nBônus do Conjunto: Aumenta o dano com qualquer arma de combate corpo a corpo. Adiciona uma habilidade ativa [DECEA3]Há uma descarga[-] e uma habilidade passiva para aliados [DECEA3]Protetor dos Fracos[-]. Concede resistência a [DECEA3]1[-] efeito ativo de radiação"
+
+0000 -- RANGE WEAPON -- 0000
+
+gunMGT4M60Imp,items,Gun,,M60 [FFD700] CWB [-] [FFD700] CWB [-][DECEA3]Melhorada[-]
+gunMGT4M60ImpDesc,items,Gun,,"Modelo  CWB da [FFD700] CWB [-] M60.\nTodas as características principais foram aumentadas. A taxa de disparo foi significativamente aumentada. Melhorou a facilidade de mira.\nEsta é a melhor arma que você poderia sonhar."
+
+gunMGT5M60Bulldog,items,Gun,,[FFD700] CWB [-] [FFB800]BullDog[-]
+gunMGT5M60BulldogDesc,items,Gun,,"Modelo experimental Bulldog.\nPermite disparar com munição de calibre .44. As principais características foram significativamente melhoradas. Quando você acerta um inimigo, ele sangra e é desacelerado por 6 segundos.\nA melhor forma de negociar com qualquer horda, nos seus termos."
+
+gunShotgunT4AutoShotgunImp,items,Gun,,[FFD700] CWB [-]Escopeta automática [DECEA3]Improved[-]
+gunShotgunT4AutoShotgunImpDesc,items,Gun,,"Modelo  CWB de uma [FFD700] CWB [-]Escopeta automática.\nDano, taxa de disparo e capacidade do carregador foram aumentados. Graças ao aprimoramento do balanceamento, você poderá causar dano a uma distância maior."
+
+gunShotgunT5AutoShotgunEraser,items,Gun,,[FFD700] CWB [-]Escopeta automática [FFB800]Eraser[-]
+gunShotgunT5AutoShotgunEraserDesc,items,Gun,,"Modelo experimental Eraser é a arma ideal para disparar contra grandes concentrações de inimigos a curtas e médias distâncias. Um aumento significativo nos principais indicadores permite que você não mate, mas apague."
+
+gunRifleT4SniperRifleImp,items,Gun,,Rifle de precisão [DECEA3]Improved[-]
+gunRifleT4SniperRifleImpDesc,items,Gun,,"Modelo  CWB de rifle de precisão.\nUm carregador e taxa de disparo aumentados permitem causar significativamente mais dano aos alvos. Graças ao aprimoramento do balanceamento, você pode alvejar sua vítima a qualquer distância."
+
+gunRifleT5SniperRifleGaus,items,Gun,,[FFD700] CWB [-] [FFB800]Gaus[-]
+gunRifleT5SniperRifleGausDesc,items,Gun,,"O modelo experimental Gaus é a arma mais poderosa em termos de causar dano com um único tiro. O inimigo literalmente não conseguirá evitar isso.\nEliminar alvos com um grande suprimento de HP não será um problema."
+
+gunHandgunT4SMG5Imp,items,Gun,,SMG-5 [DECEA3]Improved[-]
+gunHandgunT4SMG5ImpDesc,items,Gun,,"Modelo  CWB da pistola semiautomática SMG-5.\nUm carregador e taxa de disparo aumentados permitem causar significativamente mais dano aos alvos. Graças ao aprimoramento do balanceamento, a dispersão da arma foi reduzida."
+
+gunHandgunT5SMG5Zinger,items,Gun,,[FFD700] CWB [-] [FFB800]Zinger[-]
+gunHandgunT5SMG5ZingerDesc,items,Gun,,"Modelo experimental Zinger.\nDevido à sua taxa de disparo, muitos caçadores chamaram o modelo de uma rápida e confiável máquina de costura. E com razão.\nMuito rápido e leve - um presente ideal para zumbis se você decidir visitá-los."
+
+gunBowT4CompoundBowImp,items,Gun,,Arco composto [DECEA3]Improved[-]
+gunBowT4CompoundBowImpDesc,items,Gun,,"Modelo  CWB do arco composto.\nAumento de dano e taxa de disparo. O dano a partir do esconderijo foi aumentado em 50%.\nA arma ideal para eliminações silenciosas."
+
+gunBowT4CompoundCrossbowImp,items,Gun,,Arbalete composto [DECEA3]Improved[-]
+gunBowT4CompoundCrossbowImpDesc,items,Gun,,"Modelo  CWB do arbalete composto.\nTaxa de disparo e penetração na armadura do alvo foram significativamente aumentadas. O dano a partir do esconderijo foi aumentado em 50%.\nA arma ideal para eliminações silenciosas."
+
+gunBowT5CompoundCrossbowMantis,items,Gun,,[FFD700] CWB [-] [FFB800]Mantis[-]
+gunBowT5CompoundCrossbowMantisDesc,items,Gun,,"Modelo experimental do arbalete Mantis.\nTodos os principais indicadores foram significativamente aumentados. O dano a partir do esconderijo foi aumentado em 50%.\nEliminar rapidamente e silenciosamente um grande número de inimigos adormecidos não será mais um problema para você."
+
+0000 -- HEAVY MELEE WEAPON -- 0000
+
+meleeWpnSledgeT4SteelSledgehammerImp,items,Melee,,Marreta de Aço [DECEA3]Improved[-]
+meleeWpnSledgeT4SteelSledgehammerImpDesc,items,Melee,,"Marreta de aço melhorada. A experiência obtida com a eliminação de inimigos foi aumentada em 15%\nTodos os principais indicadores foram significativamente aumentados.\nSe os zumbis ainda estiverem vivos, eles vão se arrepender disso."
+
+meleeWpnClubT4SteelClubImp,items,Melee,,Clava de Aço [DECEA3]Improved[-]
+meleeWpnClubT4SteelClubImpDesc,items,Melee,,"Clava de aço melhorada. A experiência obtida com a eliminação de inimigos foi aumentada em 15%\nTodos os principais indicadores foram significativamente aumentados.\n[DECEA3]Zumbi:[-] Doutor, o que há de errado com a minha cabeça?\n[DECEA3]Doutor:[-] Sem problema, você não tem uma."
+
+meleeWpnSpearT4SteelSpearImp,items,Melee,,Lança de Aço [DECEA3]Improved[-]
+meleeWpnSpearT4SteelSpearImpDesc,items,Melee,,"Lança de aço melhorada. A experiência obtida com a eliminação de inimigos foi aumentada em 15%\nTodos os principais indicadores foram significativamente aumentados.\nCrie canapés ao seu gosto."
+
+meleeWpnClubT5SteelAxeBarbarian,items,Melee,,[FFD700] CWB [-] [FFB800]Barbarian[-]
+meleeWpnClubT5SteelAxeBarbarianDesc,items,Melee,,"Machado Barbarian único. A experiência obtida com a eliminação de inimigos foi aumentada em 30%\nTodos os principais indicadores foram significativamente aumentados.\nUma grande concentração de zumbis só é vantajosa para você. Não se esqueça de levar guardanapos, será uma bagunça. Embora não seja certo que eles ajudem."
+
+0000 -- ARMA BRANCA LEVE -- 0000
+
+meleeWpnBatonT4PlasmaBaton,items,Melee,,Cajado de Choque [DECEA3]Improved[-]
+meleeWpnBatonT4PlasmaBatonDesc,items,Melee,,"Cajado de choque  CWB. A experiência obtida com a eliminação de inimigos foi aumentada em 15%\nTodos os principais indicadores foram significativamente aumentados.\nVamos dançar."
+
+meleeWpnKnucklesT4SteelKnucklesImp,items,Melee,,Nokout de Aço [DECEA3]Improved[-]
+meleeWpnKnucklesT4SteelKnucklesImpDesc,items,Melee,,"Nokout de aço  CWB. A experiência obtida com a eliminação de inimigos foi aumentada em 15%\nTodos os principais indicadores foram significativamente aumentados.\nAs minhas idas aos bares na vida passada não foram em vão."
+
+meleeWpnBladeT4MacheteImp,items,Melee,,Machete [DECEA3]Improved[-]
+meleeWpnBladeT4MacheteImpDesc,items,Melee,,"Machete  CWB. A experiência obtida com a eliminação de inimigos foi aumentada em 15%\nTodos os principais indicadores foram significativamente aumentados.\nLeve sua caça tropical para a cidade."
+
+meleeWpnBladeT5MacheteIndiana,items,Melee,,[FFD700] CWB [-] [FFB800]Indiana[-]
+meleeWpnBladeT5MacheteIndianaDesc,items,Melee,,"Machete Indiana único. A experiência obtida com a eliminação de inimigos foi aumentada em 30%\nTodos os principais indicadores foram significativamente aumentados.\nCortar, cortar, cortar..."
+
+0000 -- FERRAMENTAS -- 0000
+
+meleeToolAxeT4ChainsawImp,items,Tool,,[FFD700] CWB [-]Motosserra [DECEA3]Improved[-]
+meleeToolAxeT4ChainsawImpDesc,items,Tool,,"Motosserra melhorada.\nAumento de dano em blocos e velocidade. Aumenta o número de mods que podem ser instalados.\nA ferramenta perfeita para colheita de madeira."
+
+meleeToolPickT4AugerImp,items,Tool,,[FFD700] CWB [-]Perfuratriz [DECEA3]Improved[-]
+meleeToolPickT4AugerImpDesc,items,Tool,,"Perfuratriz melhorada.\nAumento de dano em blocos e velocidade. Aumenta o número de mods que podem ser instalados.\nAgora é muito mais fácil extrair recursos da mina."
+
+meleeToolSalvageT4ImpactDriverImp,items,Tool,,[FFD700] CWB [-]Parafusadeira [DECEA3]Improved[-]
+meleeToolSalvageT4ImpactDriverImpDesc,items,Tool,,"Parafusadeira melhorada. A experiência obtida com a desmontagem foi aumentada em 15%\nAumento de dano em blocos e velocidade de trabalho. Aumenta o número de mods instalados.\nDesmonte todos os carros da área em alguns cliques."
+
+meleeToolRepairT4NailgunImp,items,Tool,,[FFD700] CWB [-]Pistola de Pregos [DECEA3]Improved[-]
+meleeToolRepairT4NailgunImpDesc,items,Tool,,"Pistola de pregos melhorada.\nAumento significativo na velocidade de aprimoramento e reparo de blocos.\nConstrua a cidade dos seus sonhos."
+
+meleeToolPickT5AugerReact,items,Tool,,[FFD700] CWB [-]Perfuratriz [FFB800]Reator[-]
+meleeToolPickT5AugerReactDesc,items,Tool,,"Modelo experimental de perfuratriz reator.\nTodos os principais indicadores foram significativamente aumentados, e mods avançados podem ser instalados. A extração de recursos foi aumentada em 100%.\nNão consome gasolina durante a operação e não faz barulho, o que reduz significativamente a chance de atrair atenção indesejada durante a extração. Agora a durabilidade da ferramenta é sua carga. Pode ser restaurada em uma estação de carregamento ou usando baterias de reator.\nNão existe ferramenta melhor para extração."
+
+meleeToolSalvageT5ImpactDriverReact,items,Tool,,[FFD700] CWB [-]Parafusadeira [FFB800]Reator[-]
+meleeToolSalvageT5ImpactDriverReactDesc,items,Tool,,"Modelo experimental de parafusadeira reator. A experiência obtida com a desmontagem foi aumentada em 30%\nTodos os principais indicadores foram significativamente aumentados, e também é possível extrair recursos raros desmontando veículos.\nNão consome gasolina durante a operação e não faz barulho, o que reduz significativamente a chance de atrair atenção indesejada durante a extração. Agora a durabilidade da ferramenta é sua carga. Pode ser restaurada em uma estação de carregamento ou usando baterias de reator.\nDesmonta tudo o que se move, já se moveu ou não se move de jeito nenhum."
+
+
+0000 -- MASTER BOOK -- 0000
+masterMachineGunsSkillMagazine,items,item,,[FFD700] CWB [-][DECEA3]Revista[-] Mestre de [FFD700] CWB [-]s
+masterMachineGunsSkillMagazineDesc,items,item,,"Nas revistas sobre armas de assalto, você pode encontrar pequenos artigos sobre como as pessoas melhoram armas de fábrica de forma independente.\n\nTendo coletado um número suficiente de artigos, você poderá melhorar [FFD700] CWB [-]s ou criar modelos experimentais."
+
+MasterShotgunsSkillMagazine,items,item,,[FFD700] CWB [-][DECEA3]Revista[-] Mestre de espingardas
+MasterShotgunsSkillMagazineDesc,items,item,,"Nas revistas sobre espingardas, você pode encontrar pequenos artigos sobre como as pessoas melhoram armas de fábrica de forma independente.\n\nTendo coletado um número suficiente de artigos, você poderá melhorar espingardas ou criar modelos experimentais."
+
+MasterRiflesSkillMagazine,items,item,,[FFD700] CWB [-][DECEA3]Revista[-] Mestre de rifles
+MasterRiflesSkillMagazineDesc,items,item,,"Nas revistas sobre o mundo dos rifles, você pode encontrar pequenos artigos sobre como as pessoas melhoram armas de fábrica de forma independente.\n\nTendo coletado um número suficiente de artigos, você poderá melhorar rifles de precisão ou criar modelos experimentais."
+
+MasterHandgunsSkillMagazine,items,item,,[FFD700] CWB [-][DECEA3]Revista[-] Mestre de armas de mão
+MasterHandgunsSkillMagazineDesc,items,item,,"Nas revistas sobre armas de mão, você pode encontrar pequenos artigos sobre como as pessoas melhoram modelos de armas de fábrica de forma independente.\n\nTendo coletado um número suficiente de artigos, você poderá melhorar pistolas automáticas ou criar modelos experimentais."
+
+MasterBowsSkillMagazine,items,item,,[FFD700] CWB [-][DECEA3]Revista[-] Mestre de arco e flecha
+MasterBowsSkillMagazineDesc,items,item,,"Nas revistas de entusiastas de arco e flecha, você pode encontrar pequenos artigos sobre como as pessoas melhoram suas armas de forma independente.\n\nTendo coletado um número suficiente de artigos, você poderá melhorar seu arco e besta, ou criar modelos experimentais."
+
+MasterWorkstationsMagazine,items,item,,[FFD700] CWB [-][DECEA3]Revista[-] Mestre das Estações de Trabalho
+MasterWorkstationsMagazineDesc,items,item,,"Você aprendeu a criar qualquer estação de trabalho. Mas há artigos de especialistas que mostram como melhorá-las.\n\nTendo coletado um número suficiente de artigos, você poderá melhorar suas estações e criar ferramentas úteis para elas."
+
+MasterToolsMagazine,items,item,,"Aprender a criar ferramentas não é tão difícil. Difícil é entender como melhorá-las. Algumas revistas têm artigos sobre como fazer isso.\n\nTendo coletado artigos suficientes, você poderá melhorar suas ferramentas e criar ferramentas experimentais."
+
+MasterElectricianMagazine,items,item,,[FFD700] CWB [-][DECEA3]Revista[-] Mestre Eletricista
+MasterElectricianMagazineDesc,items,item,,"Eletricistas profissionais às vezes deixam anotações sobre como criar mecanismos complexos com suas próprias mãos. Também há anotações sobre fontes de energia experimentais.\n\nTendo coletado um número suficiente de artigos, você será capaz de criar dispositivos elétricos complexos e fontes de energia."
+
+MasterHeavyMeleeWeaponMagazine,items,item,,[FFD700] CWB [-][DECEA3]Revista[-] Mestre de Armas de Corpo a Corpo Pesadas
+MasterHeavyMeleeWeaponMagazineDesc,items,item,,"Não é fácil criar uma arma forte para combate corpo a corpo, especialmente para tipos pesados. Apenas alguns conhecem os segredos para criar uma arma verdadeiramente poderosa. Você pode encontrar anotações sobre isso em revistas.\n\nTendo coletado um número suficiente de artigos, você poderá melhorar marretas, clavas e lanças, ou criar versões lendárias."
+
+MasterLightMeleeWeaponMagazine,items,item,,[FFD700] CWB [-][DECEA3]Revista[-] Mestre de Armas de Corpo a Corpo Leves
+MasterLightMeleeWeaponMagazineDesc,items,item,,"Uma arma para matar zumbis não deve ser apenas leve, mas também conveniente. Como fazer facas e socos ingleses com o máximo de eficiência às vezes é escrito em revistas temáticas. E se você adicionar um pouco de eletricidade... Experimente e o resultado certamente o agradará. Você pode encontrar anotações sobre isso em revistas.\n\nTendo coletado um número suficiente de artigos, você poderá melhorar socos ingleses, facões e bastões elétricos, ou criar versões lendárias."
+
+MasterKitchenMagazine,items,item,,[FFD700] CWB [-][DECEA3]Revista[-] Mestre de Cozinha
+MasterKitchenMagazineDesc,items,item,,"Como é difícil quando você precisa comer e beber muitas coisas saborosas para uma tarefa.
+
+0000 -- PROGRESSION -- 0000
+
+attmaster,progression,Attribute,,Habilidades de Mestre
+bowsT1,progression,Attribute,,Arcos e Arbaletes  CWBs
+
+MasterMachineGunsName,progression,Attribute,,Mestre de [FFD700] CWB [-]s
+MasterMachineGunsDesc,progression,Attribute,,"A habilidade [DECEA3]Pulemeotico lvl.5[-] permite criar revistas [DECEA3]Mestre das [FFD700] CWB [-]s[-]\nLer essas revistas melhora a qualidade das armas que você aprimora."
+
+MasterCraftingShotgunName,progression,Attribute,,Mestre de Espingardas
+MasterCraftingShotgunDesc,progression,Attribute,,"A habilidade [DECEA3]Espingardeiro lvl.5[-] permite criar revistas [DECEA3]Mestre das Espingardas[-]\nLer essas revistas melhora a qualidade das armas que você aprimora."
+
+MasterCraftingRifleName,progression,Attribute,,Mestre de Rifles
+MasterCraftingRifleDesc,progression,Attribute,,"A habilidade [DECEA3]Olho Morto lvl.5[-] permite criar revistas [DECEA3]Mestre dos Rifles[-]\nLer essas revistas melhora a qualidade das armas que você aprimora."
+
+MasterCraftingHandgunsName,progression,Attribute,,Mestre de Armas de Mão
+MasterCraftingHandgunsDesc,progression,Attribute,,"A habilidade [DECEA3]Atirador lvl.5[-] permite criar revistas [DECEA3]Mestre das Armas de Mão[-]\nLer essas revistas melhora a qualidade das armas que você aprimora."
+
+MasterCraftingBowsName,progression,Attribute,,Mestre em Arqueria
+MasterCraftingBowsDesc,progression,Attribute,,"A habilidade [DECEA3]Arqueria lvl.5[-] permite criar revistas [DECEA3]Mestre dos Arcos[-]\nLer essas revistas melhora a qualidade das armas que você aprimora."
+
+MasterWorkstationsName,progression,Attribute,,Mestre das Estações de Trabalho
+MasterWorkstationsDesc,progression,Attribute,,"A habilidade [DECEA3]Engenharia Avançada lvl.5[-] permite criar revistas [DECEA3]Mestre das Estações[-]\nLer essas revistas desbloqueia novas estações e ferramentas para elas."
+
+MasterToolsName,progression,Attribute,,Mestre das Ferramentas
+MasterToolsDesc,progression,Attribute,,"Qualquer uma das habilidades [DECEA3]Minerador 69'er lvl.5[-], [DECEA3]Engenharia Avançada lvl.5[-] ou [DECEA3]Operações de Salvamento lvl.5[-] permite criar revistas [DECEA3]Mestre das Ferramentas[-]\nLer essas revistas melhora a qualidade da ferramenta."
+
+MasterElectricianName,progression,Attribute,,Mestre Eletricista
+MasterElectricianDesc,progression,Attribute,,"A habilidade [DECEA3]Engenharia Avançada lvl.5[-] permite criar revistas [DECEA3]Mestre Eletricista[-]\nLer essas revistas permitirá criar novos itens."
+
+MasterVehicleName,progression,Attribute,,Mestre Mecânico
+MasterVehicleDesc,progression,Attribute,,"A habilidade [DECEA3]Mecânico lvl.5[-] permite criar revistas [DECEA3]Mestre Mecânico[-]\nLer essas revistas permitirá criar novas modificações para seu veículo."
+
+MasterHeavyMeleeWeaponName,progression,Attribute,,Mestre de Armas de Melee Pesadas
+MasterHeavyMeleeWeaponDesc,progression,Attribute,,"Qualquer uma das habilidades [DECEA3]Quebra-Crânios lvl.5[-], [DECEA3]Porrada Pete lvl.5[-] ou [DECEA3]Mestre da Lança lvl.5[-] permite criar revistas [DECEA3]Mestre das Armas de Melee Pesadas[-]\nLer essas revistas melhora a qualidade das armas que você aprimora."
+
+MasterLightMeleeWeaponName,progression,Attribute,,Mestre de Armas de Melee Leves
+MasterLightMeleeWeaponDesc,progression,Attribute,,"Qualquer uma das habilidades [DECEA3]O Lutador lvl.5[-], [DECEA3]Cortes Profundos lvl.5[-] ou [DECEA3]Eletrocutador lvl.5[-] permite criar revistas [DECEA3]Mestre das Armas de Melee Leves[-]\nLer essas revistas melhora a qualidade das armas que você aprimora."
+
+MasterKitchenName,progression,Attribute,,Mestre da Cozinha
+MasterKitchenDesc,progression,Attribute,,"A habilidade [DECEA3]Chef Mestre lvl.5[-] permite criar revistas [DECEA3]Mestre da Cozinha[-]\nLer essas revistas permitirá criar novos elixires."
+
+MasterArmorName,progression,Attribute,,Mestre da Armadura
+MasterArmorDesc,progression,Attribute,,"Qualquer uma das habilidades [DECEA3]Armadura Pesada Lv.4[-] ou [DECEA3]Armadura Média Lv.4[-] permite criar revistas [DECEA3]Mestre da Armadura[-]\nLer essas revistas aumenta a qualidade da armadura que você cria. Também desbloqueia a possibilidade de criar modificações avançadas."
+
+masterToolsT1-1,progression,Attribute,,Módulo de Partes Reforçadas
+masterToolsT1-1,progression,Attribute,,Módulo de Núcleo Alongado
+masterToolsT1-1,progression,Attribute,,Módulo de Impulsor de Ferramentas de Reator
+masterToolsT1-1,progression,Attribute,,Módulo de Mecanismos  CWBs
+masterToolsT1-1,progression,Attribute,,Módulo de Mecanismos Rápidos
+masterToolsT1-1,progression,Attribute,,Módulo de Caixa de Parafusos Reserva
+
+masterworkstationsT1-1,progression,Attribute,,Nível 1: Fogão de Cozinha
+masterworkstationsT1-2,progression,Attribute,,Nível 1: Coletor
+masterworkstationsT1-3,progression,Attribute,,Nível 1: Lona
+masterworkstationsT1-4,progression,Attribute,,Nível 1: Filtro de Água
+masterworkstationsT1-5,progression,Attribute,,Nível 1: [DECEA3]Coletor de Orvalho [DECEA3] CWB[-]
+
+masterworkstationsT2-1,progression,Attribute,,Nível 2: [DECEA3]Banco de Trabalho [DECEA3] CWB[-]
+masterworkstationsT2-2,progression,Attribute,,Nível 2: [DECEA3]Peças Pequenas [DECEA3]Melhoradas[-]
+masterworkstationsT2-3,progression,Attribute,,Nível 2: [DECEA3]Ferramentas Avançadas [DECEA3]Melhoradas[-]
+
+masterworkstationsT3-1,progression,Attribute,,Nível 3: [DECEA3]Misturador de Cimento [DECEA3] CWB[-]
+
+masterworkstationsT4-1,progression,Attribute,,Nível 4: [DECEA3]Forja [FFD700] CWB [-][DECEA3]Melhorada[-]
+masterworkstationsT4-2,progression,Attribute,,Nível 4: [DECEA3]Ventoinhas [DECEA3]Melhoradas[-]
+masterworkstationsT4-3,progression,Attribute,,Nível 4: [DECEA3]Bigorna [FFD700] CWB [-][DECEA3]Melhorada[-]
+
+mastertoolsT1,progression,Attribute,,"Nível 1: [DECEA3]Broca [FFD700] CWB [-][DECEA3]Melhorada[-], Motosserra, Chave de Impacto, Pistola de Pregos"
+mastertoolsT2,progression,Attribute,,"Nível 1: [FFB800]Broca [FFB800]Reator[-], Chave de Impacto"
+
+MasterElectricianT3-1,progression,Attribute,,Nível 3: [FFB800]Reator[-] Portátil
+MasterElectricianT3-2,progression,Attribute,,Nível 3: Estação de Carga [FFB800]Reator[-]
+
+MasterElectricianT4-1,progression,Attribute,,Nível 4: Módulo de Jetpack
+MasterElectricianT4-2,progression,Attribute,,Nível 4: Módulo de Bateria Aumentada
+MasterElectricianT4-3,progression,Attribute,,Nível 4: Módulo de Eletrônica Avançada
+MasterElectricianT4-4,progression,Attribute,,Nível 4: Módulo de Impulsor de Ferramentas de Reator
+MasterElectricianT4-5,progression,Attribute,,Nível 4: Módulo de Acelerador de Reator
+
+MasterVehicleT1-1,progression,Attribute,,Nível 1: Módulo de Economia de Combustível para Veículo
+MasterVehicleT1-2,progression,Attribute,,Nível 1: Módulo de Tan
+
+MasterArmorT1-1,progression,Attribute,,Nível 1: Kit de Criação de Armaduras [DECEA3] CWB[-]
+MasterArmorT1-2,progression,Attribute,,Nível 1: Mod de Bolso Quadruplo para Armadura
+MasterArmorT1-3,progression,Attribute,,Nível 1: Mod de Headset para Armadura [DECEA3] CWB[-]
+
+MasterArmorT2-1,progression,Attribute,,Nível 2: Mod LSS-1 [DECEA3]Cabeça[-]
+MasterArmorT2-2,progression,Attribute,,Nível 2: Mod LSS-1 [DECEA3]Corpo[-]
+MasterArmorT2-3,progression,Attribute,,Nível 2: Mod LSS-1 [DECEA3]Mãos[-]
+MasterArmorT2-4,progression,Attribute,,Nível 2: Mod LSS-1 [DECEA3]Pés[-]
+MasterArmorT2-5,progression,Attribute,,Nível 2: Mod Defender-Z [DECEA3]Cabeça[-]
+MasterArmorT2-6,progression,Attribute,,Nível 2: Mod Defender-Z [DECEA3]Corpo[-]
+MasterArmorT2-7,progression,Attribute,,Nível 2: Mod Defender-Z [DECEA3]Mãos[-]
+MasterArmorT2-8,progression,Attribute,,Nível 2: Mod Defender-Z [DECEA3]Pés[-]
+
+MasterArmorT3,progression,Attribute,,Nível 3: Armadura [FFD700] CWB [-][FFB800]Resgatador[-]
+MasterArmorT4,progression,Attribute,,Nível 4: Armadura [FFD700] CWB [-][FFB800]Predador[-]
+MasterArmorT5,progression,Attribute,,Nível 5: Armadura [FFD700] CWB [-][FFB800]Maus[-]
+
+MasterMachineGunsT3-1,progression,Attribute,,Nível 3: Mod de Partes de [FFD700] CWB [-] [DECEA3] CWB[-]
+MasterMachineGunsT3-2,progression,Attribute,,Nível 3: Mod de Carregador de Tambor [DECEA3] CWB[-]
+MasterMachineGunsT3-3,progression,Attribute,,Nível 3: Mod de Impulsionador de Arma [DECEA3]Experimental[-]
+
+MasterShotgunT3-1,progression,Attribute,,Nível 3: Mod de Partes de Espingarda [DECEA3] CWB[-]
+MasterShotgunT3-2,progression,Attribute,,Nível 3: Mod de Empunhadura Frontal [DECEA3] CWB[-]
+MasterShotgunT3-3,progression,Attribute,,Nível 3: Mod de Impacto [DECEA3] CWB[-]
+
+MasterHandgunsT3-1,progression,Attribute,,Nível 3: Mod de Partes de Pistola [DECEA3] CWB[-]
+MasterHandgunsT3-2,progression,Attribute,,Nível 3: Mod de Extensor de Carregador [DECEA3] CWB[-]
+MasterHandgunsT3-3,progression,Attribute,,Nível 3: Mod de Remoção de Radiação [DECEA3] CWB[-]
+
+MasterRifleT3-1,progression,Attribute,,Nível 3: Mod de Partes de Rifle [DECEA3] CWB[-]
+MasterRifleT3-2,progression,Attribute,,Nível 3: Mod de Bipé [DECEA3] CWB[-]
+MasterRifleT3-3,progression,Attribute,,Nível 3: Mod de Silenciador [DECEA3] CWB[-]
+MasterRifleT3-4,progression,Attribute,,Nível 3: Mod de Acumulador de Dano [DECEA3]Experimental[-]
+
+
+
